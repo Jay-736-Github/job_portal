@@ -10,7 +10,7 @@ let schema = new mongoose.Schema(
       lowercase: true,
       required: true,
     },
-    password: {
+    password: {  
       type: String,
       required: true,
     },
