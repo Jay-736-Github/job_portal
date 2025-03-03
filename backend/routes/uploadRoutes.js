@@ -10,7 +10,7 @@ const router = express.Router();
 
 const upload = multer();
 
-router.post("/resume", upload.single("file"), (req, res) => {
+router.post("/resume", upload.single("file"), (req, res) => { 
   const { file } = req;
   if (file.detectedFileExtension != ".pdf") {
     res.status(400).json({
