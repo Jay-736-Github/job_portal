@@ -5,7 +5,7 @@ const authKeys = require("../lib/authKeys");
 
 const User = require("../db/User");
 const JobApplicant = require("../db/JobApplicant");
-const Recruiter = require("../db/Recruiter");
+const Recruiter = require("../db/Recruiter"); 
 
 const router = express.Router();
 
