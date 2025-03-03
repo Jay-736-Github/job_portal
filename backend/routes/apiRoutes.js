@@ -5,7 +5,7 @@ const jwtAuth = require("../lib/jwtAuth");
 const User = require("../db/User");
 const JobApplicant = require("../db/JobApplicant");
 const Recruiter = require("../db/Recruiter");
-const Job = require("../db/Job");
+const Job = require("../db/Job"); 
 const Application = require("../db/Application");
 const Rating = require("../db/Rating");
 
