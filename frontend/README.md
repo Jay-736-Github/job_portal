@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Job Portal Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A job portal is a web application designed to streamline the job application process, connecting job seekers with employers. It provides a centralized platform for job seekers to search for jobs, create profiles, upload resumes, and apply for positions, while also allowing recruiters to post jobs, manage applications, and connect with potential candidates.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+*   User Registration and Profiles: Allows job seekers to create accounts with essential details, upload resumes, and detail their work experience, skills, and career goals.
+*   Job Listings: A central repository of job openings with job titles, descriptions, qualifications, salary range, company details, and application deadlines. Jobs are categorized by industry, job type, and location.
+*   Search and Filters: Enables users to search for jobs using keywords and advanced filters such as location, salary range, job type, and experience level.
+*   Job Application: Allows users to apply for jobs directly through the portal by submitting resumes and cover letters. Some portals offer structured application forms and one-click apply options.
+*   Recruiter Panel: Enables recruiters to track candidates, manage applications, schedule interviews, communicate with candidates, and generate data insights and reports.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The tech stack for building a job portal typically includes:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+| Category              | Technologies                         | Details                                                                    |
+| --------------------- | ------------------------------------ | -------------------------------------------------------------------------- |
+| Frontend              | React.js, JavaScript, Tailwind CSS | For building the user interface and handling client-side logic.            |
+| Backend               | Node.js, Express.js, Python, Laravel, C# | For server-side logic, API development, and handling requests.          |
+| Real-time Communication | Socket.io                            | Enables real-time features like live chat and instant notifications.        |
+| Database              | MongoDB                              | For storing job listings, user profiles, and application data.             |
+| Mobile Development    | Java, Kotlin (Android), Swift, Objective-C (iOS) | For developing native mobile applications (if applicable).             |
+| UI Libraries (Mobile) | Android UI, Jetpack Compose, UIKit, SwiftUI | For creating user interface elements in mobile apps.                     |
+| Development Tools (Mobile) | Android Studio, Xcode, AppCode       | IDE for mobile app development.                                          |
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A MERN stack (MongoDB, Express.js, React.js, Node.js) is often used for job portal development. This stack allows for a seamless experience for both job seekers and employers.
